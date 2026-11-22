@@ -4,7 +4,7 @@
 Tecnicatura Universitaria en Programación · Programación IV
 
 **Repositorio público:** https://github.com/fmilano86/nomelacontes  
-**Video demostrativo (10 a 15 minutos):** PENDIENTE DE INCORPORAR EL ENLACE PÚBLICO.
+**Video demostrativo:** [Ver demostración de Food Store en YouTube](https://youtu.be/c8U1PkCEyYA).
 
 ## Descripción
 
@@ -178,8 +178,8 @@ El pago es manual y se coordina con el negocio; no se integra una pasarela de co
 6. **Minutos 10 a 12:** crear otro pedido pendiente; mostrar el stock descontado, cancelarlo como cliente y volver al panel para mostrar la restitución exacta.
 7. **Minutos 12 a 14:** mostrar la protección por rol, Swagger y la ubicación del Unit of Work y del mapa de transiciones.
 
-Publicar la grabación con acceso público mediante enlace y colocar la URL al principio de este README. El video no se incluye como `.mp4` dentro del ZIP.
+La grabación se comparte mediante el enlace a YouTube incluido al principio de este README. El video no se incluye como `.mp4` dentro del ZIP.
 
 ## Formato de la entrega
 
-El ZIP contiene `backend/`, `frontend/` y este `README.md` en la raíz, junto con `.gitignore`. Antes de subirlo, incorporar arriba la URL real del repositorio público y el enlace público del video. El repositorio debe contener el mismo proyecto. Excluir `node_modules`, `venv`, `.venv`, `.env`, bases locales, cachés y archivos de video; conservar ambos `.env.example`.
+El ZIP contiene `backend/`, `frontend/` y este `README.md` en la raíz, junto con `.gitignore`. Los enlaces al repositorio público y al video se encuentran al principio del documento. El repositorio contiene el mismo proyecto. Se excluyen `node_modules`, `venv`, `.venv`, `.env`, bases locales, cachés y archivos de video; se conservan ambos `.env.example`.
