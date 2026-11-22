@@ -1,0 +1,5 @@
+export type { Pedido, EstadoPedido } from './types'
+export { CarritoPage } from './pages/CarritoPage'
+export { CheckoutPage } from './pages/CheckoutPage'
+export { MisPedidosPage, AdminPedidosPage } from './pages/PedidosPages'
+export { AdminResumenPage } from './pages/AdminResumenPage'

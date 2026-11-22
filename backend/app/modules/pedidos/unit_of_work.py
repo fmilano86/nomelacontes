@@ -1,0 +1,13 @@
+from app.core.unit_of_work import UnitOfWork
+from app.core.database import session_factory
+from .repository import PedidoRepository
+
+class PedidoUnitOfWork(UnitOfWork):
+    def __init__(self, factory=session_factory):
+        super().__init__(factory)
+    def __enter__(self):
+        super().__enter__()
+        self.pedidos = PedidoRepository(self.session)
+        from app.modules.productos.repository import ProductoRepository
+        self.productos = ProductoRepository(self.session)
+        return self
